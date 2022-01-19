@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+    /* width: 40%;
+    margin: 0 auto; */
+    background-color: rgb(235, 235, 235);
+}
+
+main{
+    height: 100%;
+    background: rgb(230, 226, 226);
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFDFD 100%); */
+}
+
+section{
+    margin: 10px 0;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    margin-top: 500px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+  /* Style the links inside the navigation bar */
+.navbar a {
+    margin-top: 10px;
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.navbar a i {
+    font-size: 1rem;
+}
+
+  /* Change the color of links on hover */
+.navbar a {
+    color: rgb(99, 99, 99);
+}
+
+  /* Add a color to the active/current link */
+.navbar a.active{
+    color: #04AA6D;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+}
+
+.text-category{
+    font-size: 0.6rem;
+}
+
+.category-icon{
+    width: 50px;
+    height: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.search{
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 5px 15px;
+    font-size: 0.7rem;
+}
+
+p.title{
+    font-size: 1.2rem;
+}
+
+section.product-last{
+    height: 400px;
+}
+
+.picture-product{
+    width: 100%;
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.star{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    font-size: 0.6rem;
+}
+
+.jarak{
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+}
+
+.card-product{
+    width: 340px;
+    border-radius: 18px;
+    height: 215px;
+}
+
+@media screen and (min-width: 300px) {
+    .card-product{
+        width: 330px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    main{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .navbar{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .card-product{
+        width: 300px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    main{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .navbar{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .card-product{
+        border-radius: 18px;
+        width: 310px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main{
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .navbar{
+        width: 30%;
+        margin: 0 auto;
+    }
+}
